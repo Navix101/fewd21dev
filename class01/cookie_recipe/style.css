@@ -1,0 +1,15 @@
+		body { 
+			background:#FFE;
+			}
+		a { 
+			color: #900;
+			}
+		img {
+			border: 2px solid black;
+			}
+		h2 span {
+			color: #887;
+			}
+		.auxHeader{
+				color: #887;
+			}
