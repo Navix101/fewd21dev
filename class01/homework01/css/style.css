@@ -1,4 +1,14 @@
 body {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 30px;
+  border-bottom: 5px solid #222222;
+  border-top: 5px solid #222222;
+  padding: 50px;
+  background: url("http://i.imgur.com/EALmHAh.png");
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -7,6 +17,7 @@ body {
 }
 
 .commonstyles small {
+  font-size: 8px
 }
 
 .commonstyles strong {
@@ -14,19 +25,34 @@ body {
 }
 
 .commonstyles h1 {
-
+  font-family: Helvetica
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  color: #030609;
+  margin-top: 0;
 }
 
 .commonstyles h2 {
+  font-family: Helvetica
+  font-size: 18px
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: left;
+  color: #030609;
+  margin-top: 0;
 }
 
 .commonstyles h3 {
-  margin-top: 42px;
+  font-family: Helvetica
+  font-size: 14px
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  color: #030609;
+  margin-top: 0;
 }
 
-.commonstyles h4 {
-  margin-bottom: 0;
-}
 
 .commonstyles p {
   font-family: Georgia
@@ -56,8 +82,8 @@ body {
 .commonstyles img {
   margin-left: 20px;
   margin-bottom: 20px;
-  border: 1px solid #222222;
-  padding: 5px;
+  border: 10px solid #f4f4f4;
+  padding: 
   text-align: center
 }
 
@@ -72,26 +98,24 @@ body {
   margin: 0 0 20px 20px;
 }
 
-.toc .toclevel-1 {
+
+
+.datatable table {
+  margin-right: 10px
+  margin-left:10px;
 
 }
 
-.toc .toclevel-1 > a {
-
-}
-
-.toc .toclevel-2 {
-
-}
-
-.toc .toclevel-2 > a {
-
+.datatable th {
+  text-align: bottom; 
+  padding: 10px;
 }
 
 .datatable td {
-  padding: 8px 14px;
+  text-align: center; 
+  padding: 5px;
 }
 
-.datatable td:first-child{
-  text-transform: uppercase;
+.datatable td:last-child{
+  text-align: left;
 }
