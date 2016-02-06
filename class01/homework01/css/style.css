@@ -65,13 +65,6 @@ body {
   list-style: square;
 }
 
-.commonstyles ul p {
-
-}
-
-.commonstyles li {
-
-}
 
 .commonstyles hr {
   border: none;
@@ -98,6 +91,9 @@ body {
   margin: 0 0 20px 20px;
 }
 
+.tocnumber{
+  font-weight: bold;
+}
 
 
 .datatable table {
