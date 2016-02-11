@@ -44,7 +44,7 @@ a {
 }
 
 .logo{
-  font-weight: 900;
+  font-weight: 800;
   font-size: 48px;
 }
 
@@ -107,7 +107,7 @@ padding:100px 0 100px;
 
 .testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
-  padding: 50px 0 50px;
+  padding: 40px 0 40px;
   color: #fff;
 }
 
