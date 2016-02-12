@@ -35,7 +35,7 @@ body {
     font-weight: 300;
     line-height: 1.4;
     color:#606161;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     background-size: cover;
 }
 
@@ -44,8 +44,14 @@ a {
 }
 
 .logo{
-  font-weight: 900;
+  font-weight: 800;
   font-size: 48px;
+}
+
+.pageIntro .logo{
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px
 }
 
 .container{
@@ -58,9 +64,6 @@ a {
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
   padding-bottom: 200px;
-}
-.pageIntro .logo{
-  color: #fff
 }
 
 .btn{
