@@ -77,7 +77,7 @@ a {
   display: block;
 }
 
-.btnCTA{
+.btnBG{
   color:#033048;
   background: #f9e42e;
 }
@@ -129,14 +129,7 @@ padding:100px 0 100px;
   display: block;
 }
 
-.ctaBox {
-  background: #f9e42e;
-  padding: 30px;
-  text-align: center
-}
-
-
-.ctaBox {
+.bgBox {
   background: #f9e42e;
   padding: 30px;
   text-align: center
