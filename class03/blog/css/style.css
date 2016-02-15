@@ -1,0 +1,165 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif; 
+	font-size: 18px; 
+	color: #444;
+	line-height: 1.5;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+​* html .clearfix             { zoom: 1; } /*​ IE6 */
+​*:first-child+html .clearfix { zoom: 1; } /*​ IE7 */
+
+a{
+	color:#d00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+
+a:hover{
+	color:#A00;
+}
+
+
+.wrapper{
+	width: 100%;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.container-blogPost{
+	width:60%;
+	float:left;
+	padding:15px;
+	overflow: hidden;
+}
+
+.picture{
+	width: 100%
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.menu-main{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	clear:both;
+}
+
+.menu-main li{
+	display: inline-block;
+	width: 16.66%;
+	float:left;
+}
+
+.menu-main a{
+	display:block;
+	color:white;
+	padding:15px;
+	background: black;
+	text-align: center;
+	border-right: 1px solid white;
+}
+
+.menu-main a:hover{
+	background: #900;
+}
+
+.date{
+	font-size: 700;
+	font-size:24px;
+	font-style: italic;
+	color:gray;
+	margin: 0;
+}
+
+.logo{
+	display: inline;
+    margin-right: .5em;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.tagline{
+	display: inline;
+	font-size: 20px;
+    font-weight: 300;
+    color: #888;
+    padding: 0;
+}
+
+.blog-post-title{
+	font-weight: 700;
+}
+
+.blog-post-article{
+	padding-top: 20px;
+	border-bottom: 1px solid gray;
+}
+
+.blog-post-content{
+	font-weight: 300;
+	font-size:16px;
+}
+
+.blog-post-content::first-letter{
+	float: left;
+    font-size: 6em;
+    line-height: 1;
+    color: #DDD;
+    margin: -.1em .1em 0 -.1em;
+
+}
+
+.container-aside{
+	width: 35%;
+	float:right;
+	padding:15px;
+}
+
+.aside-content{
+	padding-top: 20px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+
+footer {
+	clear: both;
+}
+.footer-menu{
+	font-size: 14px;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.footer-menu li{
+	display: inline;
+	width: 100%;
+}
+
+.footer-menu li::after{
+	content:'|';
+}
+
+.footer-menu a{
+	padding:15px;
+}
+
+.footer-copyright{
+	color:gray;
+}
+
