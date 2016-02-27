@@ -220,10 +220,14 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-.hide {
+.close {
   display: none;
 }
 
+
+.readlessHide{
+  display:none;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

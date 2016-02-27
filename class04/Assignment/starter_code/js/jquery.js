@@ -1,0 +1,20 @@
+$(document).ready(function() {
+  $('.readmore').click(function(){
+    $('#additionalText').slideDown();
+    $('.readmore').hide();
+    $('.readless').show();
+    event.preventDefault();
+  });
+    $('.learnmore').click(function(){
+    $('.learnmore').hide();
+    $('#learnmoretext').slideDown();
+    $('.learnmore').show();
+    event.preventDefault();
+  });
+  $('.readless').click(function(){
+    $('#additionalText').slideUp();
+    $('.readless').hide();
+    $('.readmore').show();
+    event.preventDefault();
+  });
+});
