@@ -6,8 +6,8 @@ $(document).ready(function() {
     event.preventDefault();
   });
     $('.learnmore').click(function(){
-    $('.learnmore').hide();
     $('#learnmoretext').slideDown();
+    $('.learnmore').hide();
     $('.learnmore').show();
     event.preventDefault();
   });
