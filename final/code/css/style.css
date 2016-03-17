@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.container {
+    max-width: 960px;
+    width:  90%;
+    height: 100%;
+    margin: 0 auto;
+    clear:both;
+}
+
+.portfolio {
+	height:2100px;
+	padding:10px;
+	color:#ffffff;
+	background-color: #5ba588;
+	text-align: center;
+}
+
+.navigationBar{
+	height: 100px;
+	padding:20px;
+	background-color: #252222;
+	text-align: center;
+}
+
+.about{
+	padding:20px;
+	height:300px;
+	color:#ffffff;
+	background-color:#586775;
+}
+
+.pageFooter{
+	background: url(../images/footer_bg.gif) no-repeat;
+	background-size:100%;
+	width: 100%;
+}
+
+.footerContent{
+	height: inherit;
+	text-align: center;
+	padding: 12px;
+}
+
+
+.emailLink {
+ 	display: inline-block;
+ 	padding: 12px;
+ 	height: 50px;
+ 	width: 300px;
+ 	border: 2px solid #ffffff;
+ 	border-radius: 6px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	font: bold 20px;
+}
+
+nav ul li{
+	display: inline-block;
+} 
+
+nav ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color:#5ba588;
+}
+
+header img{
+	margin-bottom: -4px;
+	width:100%;
+}
+
+footer{
+	color:#ffffff;
+}
+
+footer ul li{
+	display: inline-block;
+	list-style:  none;
+}
+
+footer ul li a{
+	color:#ffffff;
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+	color:#5ba588;
+}
