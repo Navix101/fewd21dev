@@ -319,7 +319,7 @@ header nav ul li{
 .post p:first-of-type:first-letter {
   float: none;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 16px;
   padding: 0;
   font-weight: 400;
 }
@@ -339,4 +339,14 @@ header nav ul li{
 }
 #sidebar img {
   display: none;
+}
+
+#posts, #sidebar {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+}
+
+footer .logo, footer ul li {
+  margin-bottom: 15px;
 }
