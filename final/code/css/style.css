@@ -43,10 +43,10 @@ html {
 }
 
 .banner{
-	width: 100%;
-	height:500px;
-	background: url(../images/header_bg_01.gif) no-repeat;
-	background-size:100%;
+    width: 100%;
+    height: 300px;
+    background: url(../images/header_bg_01.gif);
+    background-size: cover;
 }
 
 .about{
@@ -54,6 +54,12 @@ html {
 	height:300px;
 	color:#ffffff;
 	background-color:#586775;
+}
+
+.about_img{
+	float: left;
+	margin-right: 20px;
+	display: inline;
 }
 
 .pageFooter{
@@ -79,6 +85,30 @@ html {
  	color: #ffffff;
  	text-align: center;
  	font: bold 20px;
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
+h1{
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
 }
 
 nav ul li{
