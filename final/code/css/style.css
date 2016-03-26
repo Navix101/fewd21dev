@@ -42,6 +42,13 @@ html {
 	text-align: center;
 }
 
+.banner{
+	width: 100%;
+	height:500px;
+	background: url(../images/header_bg_01.gif) no-repeat;
+	background-size:100%;
+}
+
 .about{
 	padding:20px;
 	height:300px;
