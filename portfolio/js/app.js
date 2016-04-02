@@ -14,7 +14,7 @@
             }
             $('html,body').animate({
                 scrollTop: dest
-            }, 2000, 'swing');
+            }, 800, 'swing');
             hashTagActive = this.hash;
         }
     });
