@@ -55,6 +55,10 @@ body{
     background-size: cover;
 }
 
+.imagesContainer{
+	padding: 20px;
+}
+
 .about{
 	padding:100px;
 	height:300px;
@@ -83,13 +87,21 @@ body{
 
 .emailLink {
  	display: inline-block;
+ 	text-decoration: none;
  	padding: 12px;
  	width: 300px;
- 	border: 2px solid #ffffff;
+ 	border: 3px solid #ffffff;
  	border-radius: 6px;
  	color: #ffffff;
  	text-align: center;
  	font-size: 15pt;
+}
+.emailLink:hover {
+	color:#232323;
+	text-decoration: none;
+	border: 3px solid #ffd800;
+	background-color: #ffd800;
+    text-decoration: none;
 }
 
 .my-gallery {
@@ -109,6 +121,7 @@ body{
 .my-gallery figcaption {
   display: none;
 }
+
 
 h1{
 	font-family: "Rufina";
@@ -150,10 +163,15 @@ footer{
 	color:#ffffff;
 }
 
+footer p{
+	margin: 10px;
+}
+
 footer ul li{
 	display: inline-block;
 	list-style:  none;
 	padding-right: 40px;
+	background: none;
 }
 
 footer ul li a{
@@ -162,5 +180,5 @@ footer ul li a{
 
 footer ul li a:hover{
 	text-decoration: underline;
-	color:#5ba588;
+	color:#fdd800;
 }
