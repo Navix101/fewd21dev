@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+/**, *:before, *:after {
   box-sizing: inherit;
-}
+}*/
 
 .clearfix:after {
      visibility: hidden;
@@ -20,11 +20,17 @@ html {
 /* close commented backslash hack */
 
 .container {
-    max-width: 960px;
+    max-width: 1080px;
     width:  90%;
     height: 100%;
     margin: 0 auto;
     clear:both;
+/*    box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+*/	/*padding:7px;*/
+}
+
+body{
+	background-color: #252222;	
 }
 
 .portfolio {
@@ -36,34 +42,34 @@ html {
 }
 
 .navigationBar{
-	height: 100px;
+	height: 60px;
 	padding:20px;
-	background-color: #252222;
 	text-align: center;
+	background-color: #252222;
 }
 
 .banner{
     width: 100%;
     height: 300px;
-    background: url(../images/header_bg_01.gif);
+    background: url("header.jpg");
     background-size: cover;
 }
 
 .about{
-	padding:20px;
+	padding:100px;
 	height:300px;
 	color:#ffffff;
-	background-color:#586775;
+	background-color: #252222;
 }
 
 .about_img{
 	float: left;
-	margin-right: 20px;
+	margin-right: 40px;
 	display: inline;
 }
 
 .pageFooter{
-	background: url(../images/footer_bg.gif) no-repeat;
+	background: url("footer_bg.jpg") no-repeat;
 	background-size:100%;
 	width: 100%;
 }
@@ -71,20 +77,19 @@ html {
 .footerContent{
 	height: inherit;
 	text-align: center;
-	padding: 12px;
+	padding: 20px;
 }
 
 
 .emailLink {
  	display: inline-block;
  	padding: 12px;
- 	height: 50px;
  	width: 300px;
  	border: 2px solid #ffffff;
  	border-radius: 6px;
  	color: #ffffff;
  	text-align: center;
- 	font: bold 20px;
+ 	font-size: 15pt;
 }
 
 .my-gallery {
@@ -106,9 +111,18 @@ html {
 }
 
 h1{
+	font-family: "Rufina";
 	font-size: 20px;
-	font-weight:bold;
 	text-align: center;
+}
+
+section div img{
+	box-sizing:inherit;
+}
+
+p{
+	font-family: "Open Sans";
+	font-size:12pt;
 }
 
 nav ul li{
@@ -116,6 +130,8 @@ nav ul li{
 } 
 
 nav ul li a{
+	font-family: "Open Sans";
+	font-weight: bold;
 	text-decoration: none;
 	color:#ffffff;
 }
@@ -137,6 +153,7 @@ footer{
 footer ul li{
 	display: inline-block;
 	list-style:  none;
+	padding-right: 40px;
 }
 
 footer ul li a{

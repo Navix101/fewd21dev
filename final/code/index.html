@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    	<meta charset="utf-8">
-		<title>Michael Sullivan's Porfolio</title>
-		<meta name="description" content="About michael sullivan">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/photoswipe.css"> 
-		<link rel="stylesheet" href="css/default-skin.css"> 
-	</head>
+   <head>
+      <!-- 		<link rel="stylesheet" href="css/reset.css">
+         -->		
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <meta charset="utf-8">
+      <title>Michael Sullivan's Porfolio</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Rufina:700' rel='stylesheet' type='text/css'>
+      <meta name="description" content="About michael sullivan">
+      <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <div class="banner">Hello</div>
+            <nav class="navigationBar">
+               <ul>
+                  <li><a href="#works">works</a></li>
+                  &nbsp
+                  <li><a href="#about">about</a></li>
+                  &nbsp
+                  <li><a href="#contact">contact</a></li>
+                  &nbsp
+               </ul>
+            </nav>
+         </header>
+         <section class="portfolio" id="works">
+            <h1>works&nbsp/</h1>
+            <p>illustration . design . typography</p>
+            
+            <div id="caption1" style="display:none">
+               <h4>Handlebar Mustash</h4><p>For the hipsters, by the hipsters.</p>
+            </div>
+            <div id="caption2" style="display:none">
+               <h4>Madvilliany Alt LP Cover</h4><p>MF DOOM + MADLIB</p>
+            </div>
+            <div id="caption3" style="display:none">
+               <h4>Jamtech 13 Poster</h4><p>Poster for Jamtech 13 in 2016</p>
+            </div>
+            <div id="caption4" style="display:none">
+               <h4>Java Loco Logo</h4><p>Local coffee shop in Northern Virginia</p>
+            </div>
 
-	<body>
-		<div class="container">
-			<header>
+            <div id="lightgallery">
 
-				<div class="banner">Hello</div>
-					<nav class="navigationBar">
-						<ul>
-							<li><a href="#">works</a></li>
-							&nbsp
-							<li><a href="#">about</a></li>
-							&nbsp
-							<li><a href="#">contact</a></li>
-							&nbsp
-						</ul>
-					</nav>
-			</header>
+               <a href="css/avant9arde_Finished_HandleBar.jpg" data-sub-html="#caption1">
+               <img src="css/avant9arde_Finished_HandleBar_tn.jpg"/>
+               </a>
 
-			<section class="portfolio">
-				<h1>works&nbsp/</h1>
-					<p>illustration . design . typography</p>
+               <a href="css/avant9arde_Finished_Madvillainy.png" data-sub-html="#caption2">
+               <img src="css/avant9arde_Finished_Madvillainy_tn.jpg"/>
+               </a>
 
+               <a href="css/avant9arde_Finished_Jamtech13.jpg" data-sub-html="#caption3">
+               <img src="css/avant9arde_Finished_Jamtech13_tn.jpg"/>
+               </a>
 
-			</section>
+               <a href="css/avant9arde_Finished_JavaLocoLogo.jpg" data-sub-html="#caption4">
+               <img src="css/avant9arde_Finished_JavaLocoLogo_tn.jpg"/>
+               </a>
 
-			<section class= "about">
-				<h1>about&nbsp/</h1>
-				<div class="about_img">
-					<img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg">
-				</div>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			</section>
-
-			<footer class="pageFooter">
-				<div class="footerContent">
-					<h1>contact&nbsp/</h1>
-					<p>540.455.1191</p>
-					<p class="emailLink">sullivan.michael86@gmail.com</p>
-					<p>ALEXANDRIA, VA</p>
-					<ul>
-  						<li> <a href="#"><span class="fa fa-wordpress"></span></a></li>
-						<li> <a href="#"><span class="fa fa-linkedin"></span></a></li>
-					</ul>
-				</div>	
-			</footer>
-
-			<script src="js/app.js"></script>
-			<script src="js/photoswipe.min.js"></script> 
-			<script src="js/photoswipe-ui-default.min.js"></script>
-		
-		</div>
-	</body>
-
+            </div>
+         </section>
+         <section class= "about" id="about">
+            <h1>about&nbsp/</h1>
+            <div class="about_img">
+               <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </section>
+         <footer class="pageFooter" id="contact">
+            <div class="footerContent">
+               <h1>contact&nbsp/</h1>
+               <p>540.455.1191</p>
+               <p class="emailLink">sullivan.michael86@gmail.com</p>
+               <p>ALEXANDRIA, VA</p>
+               <ul>
+                  <li> <a href="#"><span class="fa fa-wordpress"></span></a></li>
+                  <li> <a href="#"><span class="fa fa-linkedin"></span></a></li>
+               </ul>
+            </div>
+         </footer>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+      <!-- lightgallery plugins -->
+      <script src="js/lightgallery.min.js"></script>
+      <script src="js/lg-thumbnail.min.js"></script>
+      <script src="js/lg-fullscreen.min.js"></script>
+      <script src="js/app.js"></script>
+   </body>
 </html>
