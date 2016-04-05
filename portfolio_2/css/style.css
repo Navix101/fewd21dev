@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+/**, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body{
+	background: #cdd6de;
+}
+.topBanner{
+	background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: 100%;
+    color: #ffffff;
+    height: 645px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    z-index: 999999;
+}
+
+.content{
+	width:100%;
+}
+
+.aboutBlock{
+    width: 100%;
+    background-color: #e5edef;
+    padding: 77px 0px 107px 0px;
+    border-top: 1px solid #F4F5EE;
+}
+
+
+.aboutWrapper{
+	width: 94%;
+    max-width: 900px;
+    margin: 0px auto;
+    font-size: 28px;
+    color: #666666;
+    text-align: center;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.porfolioBlock{
+	width: 94%;
+    max-width: 1170px;
+    margin: 0px auto;
+}
+}

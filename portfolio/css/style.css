@@ -159,7 +159,6 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	text-decoration: underline;
 	color:#5ba588;
 }
 
@@ -177,6 +176,7 @@ footer p{
 }
 
 footer ul li{
+	font-size: larger;
 	display: inline-block;
 	list-style:  none;
 	padding-right: 10px;
