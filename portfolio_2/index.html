@@ -1,56 +1,137 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>Michael Sullivan's Porfolio</title>
-	<link rel="stylesheet" href="css/navBarStyle.css">
-	<link rel="stylesheet" href="css/style.css">
-
-
+    <meta charset="utf-8">
+    <title>Michael Sullivan's Porfolio</title>
+    <link href="css/navBarStyle.css" rel="stylesheet">
+    <link href="css/lightgallery.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-	<div class="fixedNavigation">
-		<nav class="navigationContainer">
-			<img class="navigationLogo" src="img/logo_navigation.png">
-			<ul class="menu-items">
-            	<li><a class="scroll" href="#works">works</a></li>
-            	&nbsp
-            	<li><a class="scroll" href="#about">about</a></li>
-            	&nbsp
-            	<li><a class="scroll" href="#contact">contact</a></li>
-            	&nbsp
-        	</ul>
+    <div class="fixedNavigation">
+        <nav class="navigationContainer">
+            <img class="navigationLogo" src="images/logo_navigation.png">
+            <ul class="menu-items">
+                <li><a class="scroll" href="#works">works</a></li>
+                <li style="list-style: none">&nbsp;</li>
+                <li><a class="scroll" href="#about">about</a></li>
+                <li style="list-style: none">&nbsp;</li>
+                <li><a class="scroll" href="#contact">contact</a></li>
+                <li style="list-style: none">&nbsp;</li>
+            </ul>
         </nav>
     </div>
+    <div>
+        
+        <!-- banner -->
 
-<section class="topBanner"> 
-</section>
-
-<section class="aboutBlock">
-	<div class="aboutWrapper">Sup, my name is Michael Sullivan
-	</div>
-</section>
-
-<section class="portfolioBlock">
-	<div class="imageBlock">
-
-	</div>
-
-
-</section>
-
-
-
-
-
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-      <script src="js/lightgallery.min.js"></script>
-      <script src="js/lg-thumbnail.min.js"></script>
-      <script src="js/lg-fullscreen.min.js"></script>
-		<script src="js/app.js"></script>
-	</body>
+        <section class="topBanner"></section>
+        
+        <!-- portfolio -->
+        <div id="works">
+        <section class="portfolioBlock">
+            <h1>Works</h1>
+            <div>
+                <div id="caption1" style="display:none">
+                    <h4>Supreme Reefs</h4>
+                    <p>Logo design and branding for Supreme Reefs, LLC.</p>
+                </div>
+                <div id="caption2" style="display:none">
+                    <h4>SouLegacy's Open Sessions album cover</h4>
+                    <p>Album cover for the independent musical artist
+                    SouLegacy.</p>
+                </div>
+                <div id="caption3" style="display:none">
+                    <h4>Batman V Superman Talenthouse Contest</h4>
+                    <p>Runner-up in the international Warner Bros./ Talenthouse
+                    competition</p>
+                </div>
+                <div id="caption4" style="display:none">
+                    <h4>Handlebar Mustash</h4>
+                    <p>Logo for the hipsters, by the hipsters.</p>
+                </div>
+                <div id="caption5" style="display:none">
+                    <h4>Frontline Development Solutions</h4>
+                    <p>Brand development for a government contracting agency in
+                    the greater D.C. area.</p>
+                </div>
+                <div id="caption6" style="display:none">
+                    <h4>Alt Covers Madvilliany and Blasphemy</h4>
+                    <p>Examples of the "Alternate Covers" collection that is being shown at local events.</p>
+                </div>
+                <div id="caption7" style="display:none">
+                    <h4>EPK Digital</h4>
+                    <p>Logo development for EPK Digital.</p>
+                </div>
+                <div id="caption8" style="display:none">
+                    <h4>User Interface Examples</h4>
+                    <p>2012 - 2016</p>
+                </div>
+                <div id="caption9" style="display:none">
+                    <h4>Unique Icon Examples</h4>
+                    <p>2011 - 2016</p>
+                </div>
+                <div id="caption10" style="display:none">
+                    <h4>Jamtech Spring 2016</h4>
+                    <p>JAMTECH is Build a Game in a Day Event where elementary, middle, and high school students learn how to build a video game.</p>
+                </div>
+                <div id="lightgallery">
+                    <a data-sub-html="#caption1" href=
+                    "images/img_01_full"><img src="images/img_01_thumb"></a>
+                    <a data-sub-html="#caption2" href=
+                    "images/img_02_full.jpg"><img src="images/img_02_thumb"></a>
+                    <a data-sub-html="#caption3"
+                    href="images/img_03_full.jpg"><img src="images/img_03_thumb"></a>
+                    <a data-sub-html="#caption4"
+                    href="images/img_04_full.jpg"><img src="images/img_04_thumb"></a>
+                    <a data-sub-html="#caption5"
+                    href="images/img_05_full.jpg"><img src="images/img_05_thumb"></a>
+                    <a data-sub-html="#caption6"
+                    href="images/img_06_full.jpg"><img src="images/img_06_thumb"></a>
+                    <a data-sub-html="#caption7"
+                    href="images/img_07_full.jpg"><img src="images/img_07_thumb.png"></a>
+                    <a data-sub-html="#caption8"
+                    href="images/img_08_full.jpg"><img src="images/img_08_thumb.png"></a>
+                    <a data-sub-html="#caption9"
+                    href="images/img_09_full.jpg"><img src="images/img_09_thumb.png"></a>
+                    <a data-sub-html="#caption10"
+                    href="images/img_10_full.jpg"><img src="images/img_10_thumb.png"></a>
+                </div>
+                </div>
+            </div>
+                    </div>
+        </section>
+        <section class="aboutBlock" "bottomBanner" id="about">
+            <div class="aboutWrapper">
+                <h1>About</h1>
+                <p>Michael Sullivan studied Media Arts and Animation before
+                becoming engulfed into the world of graohic design. Spending
+                the first portion of his carreer developing graphics for trail
+                litagation, he was later pulled into the e-Learning industry as
+                a production artist and at times a junior lead. He is currently
+                working as a designer supporting the multi-million dollar
+                proposal endevours of WinBiz.</p>
+                <h2 id="contact">Contact</h2>
+                <p>Michael Sullivan<br>
+                Alexandria, VA<br>
+                United States</p>
+                <p>Phone 540.455.1191<br>
+                <a href="mailto:sullivan.michael86@gmail.com">Email</a></p>
+            </div>
+        </section>
+    </div>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js">
+    </script> 
+    <script src="js/lightgallery.min.js">
+    </script> 
+    <script src="js/lg-fullscreen.min.js">
+    </script> 
+    <script src="js/app.js">
+    </script>
+</body>
 </html>

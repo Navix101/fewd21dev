@@ -20,45 +20,62 @@ html {
 /* close commented backslash hack */
 
 body{
-	background: #cdd6de;
+    font-family: 'Roboto', sans-serif;
+	background: white;
+    margin: 0;
 }
 .topBanner{
-	background-image: url(../img/banner.jpg);
-    background-position: center;
-    background-size: 100%;
-    color: #ffffff;
-    height: 645px;
-    margin: 0px 0px 0px 0px;
-    padding: 0;
-    z-index: 999999;
+    width: 100vw;
+	background-image: url(../images/banner.jpg);
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 867px;
+    box-shadow:  0px 5px 10px 0px rgba(47,47,47,0.11);;
 }
-
-.content{
-	width:100%;
+.portfolioBlock{
+    width: 80%;
+    margin: 55px 0 0 165px;
+    font-size: 20px;
+    color: #666666;
+    text-align: left;
+    line-height: 40px;
+    margin-bottom: 75px;
 }
-
+.portfolioBlock div img {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.imageBlock a{
+    text-decoration: none;
+    width: 90%
+}
+.menu-items a:hover{
+    color:#ffd800;
+}
 .aboutBlock{
     width: 100%;
-    background-color: #e5edef;
-    padding: 77px 0px 107px 0px;
-    border-top: 1px solid #F4F5EE;
+    padding: 30px 0px 40px 0px;
+    background-image: url(../images/img_about.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:859px;
+    box-shadow:  0px 0px 10px 5px rgba(47,47,58,0.25);
 }
-
-
 .aboutWrapper{
-	width: 94%;
-    max-width: 900px;
-    margin: 0px auto;
-    font-size: 28px;
-    color: #666666;
-    text-align: center;
-    font-weight: 300;
-    line-height: 40px;
+    width: 50%;
+    margin: 65px 0 0 165px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    line-height: 30px;
 }
-
-.porfolioBlock{
-	width: 94%;
-    max-width: 1170px;
-    margin: 0px auto;
+.aboutWrapper a {
+    text-decoration: none;
+    color: white;
 }
+.aboutWrapper a:hover{
+    color:#ffd800;
 }
